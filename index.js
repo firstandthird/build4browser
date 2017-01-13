@@ -7,13 +7,13 @@ const startCase = require('lodash.startcase');
 const libraryPkg = require(path.join(process.cwd(), 'package.json'));
 
 runkit({
-  name: 'es6kit',
+  name: 'scriptkit',
   configPaths: [
     path.join(__dirname, 'runkit')
   ],
   context: {
     fileName: libraryPkg.name,
     libraryName: startCase(libraryPkg.name).replace(/ /g, ''),
-    entrypoint: libraryPkg.es6kit.entrypoint
+    entrypoint: libraryPkg.scriptkit.entrypoint
   }
 });

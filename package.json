@@ -1,17 +1,17 @@
 {
-  "name": "browserkit",
+  "name": "scriptkit",
   "version": "0.0.1",
   "description": "Node cli to turn an es6 script with requires/imports into a standalone file for use in browser",
   "main": "index.js",
   "bin": {
-    "browserkit": "index.js"
+    "scriptkit": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/firstandthird/browserkit.git"
+    "url": "git+https://github.com/firstandthird/scriptkit.git"
   },
   "keywords": [
     "cli",
@@ -24,9 +24,9 @@
   "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/firstandthird/browserkit/issues"
+    "url": "https://github.com/firstandthird/scriptkit/issues"
   },
-  "homepage": "https://github.com/firstandthird/browserkit#readme",
+  "homepage": "https://github.com/firstandthird/scriptkit#readme",
   "dependencies": {
     "lodash.startcase": "^4.4.0",
     "runkit": "0.0.7",

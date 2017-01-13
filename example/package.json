@@ -3,7 +3,7 @@
   "scripts": {
     "start": "node ../index.js"
   },
-  "es6kit": {
+  "scriptkit": {
     "entrypoint": "example.js"
   }
 }
