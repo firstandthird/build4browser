@@ -6,6 +6,8 @@ const startCase = require('lodash.startcase');
 
 const libraryPkg = require(path.join(process.cwd(), 'package.json'));
 
+const options = libraryPkg.scriptkit || {};
+
 runkit({
   name: 'scriptkit',
   version: require('./package.json').version,
@@ -15,6 +17,6 @@ runkit({
   context: {
     fileName: libraryPkg.name,
     libraryName: startCase(libraryPkg.name).replace(/ /g, ''),
-    entrypoint: libraryPkg.scriptkit.entrypoint
+    entrypoint: options.entrypoint || 'index.js'
   }
 });
