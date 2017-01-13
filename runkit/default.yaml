@@ -1,0 +1,22 @@
+dist: 'dist'
+entrypoint: 'index.js'
+tasks:
+  scripts: 'runkit-scripts'
+  eslint: 'runkit-eslint'
+  watcher: 'runkit-watcher'
+  default:
+    -
+      - 'eslint'
+      - 'scripts'
+  dev:
+    - 'watcher'
+scripts:
+  browserify:
+    standalone: '{{libraryName}}'
+  files:
+    '{{dist}}/{{fileName}}.js': '{{entrypoint}}'
+watcher:
+  ignore:
+    - '{{dist}}'
+  files:
+    './**/*.js': 'default'

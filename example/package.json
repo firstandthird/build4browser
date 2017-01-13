@@ -1,0 +1,9 @@
+{
+  "name": "test-test",
+  "scripts": {
+    "start": "node ../index.js"
+  },
+  "es6kit": {
+    "entrypoint": "example.js"
+  }
+}

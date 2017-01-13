@@ -1,0 +1,37 @@
+{
+  "name": "browserkit",
+  "version": "0.0.1",
+  "description": "Node cli to turn an es6 script with requires/imports into a standalone file for use in browser",
+  "main": "index.js",
+  "bin": {
+    "browserkit": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/browserkit.git"
+  },
+  "keywords": [
+    "cli",
+    "es6",
+    "babel",
+    "browserify",
+    "browser",
+    "runkit"
+  ],
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/browserkit/issues"
+  },
+  "homepage": "https://github.com/firstandthird/browserkit#readme",
+  "dependencies": {
+    "lodash.startcase": "^4.4.0",
+    "runkit": "0.0.7",
+    "runkit-eslint": "0.0.2",
+    "runkit-scripts": "0.0.3",
+    "runkit-watcher": "0.0.4"
+  }
+}
