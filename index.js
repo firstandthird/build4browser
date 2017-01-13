@@ -8,6 +8,7 @@ const libraryPkg = require(path.join(process.cwd(), 'package.json'));
 
 runkit({
   name: 'scriptkit',
+  version: require('./package.json').version,
   configPaths: [
     path.join(__dirname, 'runkit')
   ],
