@@ -29,7 +29,7 @@
   "homepage": "https://github.com/firstandthird/scriptkit#readme",
   "dependencies": {
     "lodash.startcase": "^4.4.0",
-    "runkit": "0.0.7",
+    "runkit": "0.0.8",
     "runkit-eslint": "0.0.2",
     "runkit-scripts": "0.0.3",
     "runkit-watcher": "0.0.4"
