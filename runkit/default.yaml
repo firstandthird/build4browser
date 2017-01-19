@@ -13,6 +13,7 @@ tasks:
     - 'livereload'
     - 'watcher'
 scripts:
+  minify: false
   browserify:
     standalone: '{{libraryName}}'
   files: '{{scriptFiles}}'
