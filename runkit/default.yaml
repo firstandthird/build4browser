@@ -13,8 +13,7 @@ tasks:
 scripts:
   browserify:
     standalone: '{{libraryName}}'
-  files:
-    '{{dist}}/{{fileName}}.js': '{{entrypoint}}'
+  files: '{{scriptFiles}}'
 watcher:
   ignore:
     - '{{dist}}'

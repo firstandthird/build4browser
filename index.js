@@ -17,6 +17,6 @@ runkit({
   context: {
     fileName: libraryPkg.name,
     libraryName: startCase(libraryPkg.name).replace(/ /g, ''),
-    entrypoint: options.entrypoint || 'index.js'
+    scriptFiles: options.scripts || {}
   }
 });
