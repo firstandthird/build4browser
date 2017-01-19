@@ -1,4 +1,11 @@
 
+0.0.4 / 2017-01-19
+==================
+
+  * minify if env is production
+  * fixed eslint
+  * added livereload support
+
 0.0.3 / 2017-01-19
 ==================
 
