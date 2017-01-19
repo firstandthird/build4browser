@@ -16,10 +16,18 @@ scripts:
   browserify:
     standalone: '{{libraryName}}'
   files: '{{scriptFiles}}'
-watcher:
+eslint:
   ignore:
     - '{{dist}}'
     - 'node_modules'
+    - '.git'
+  files:
+    - './**/*.js'
+
+watcher:
+  ignore:
+    - 'node_modules'
+    - '.git'
   files:
     './**/*.js': 
       task: 'default'
