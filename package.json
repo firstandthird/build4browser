@@ -31,6 +31,7 @@
     "lodash.startcase": "^4.4.0",
     "runkit": "0.0.8",
     "runkit-eslint": "0.0.2",
+    "runkit-livereload": "0.0.5",
     "runkit-scripts": "0.0.3",
     "runkit-watcher": "0.0.4"
   }

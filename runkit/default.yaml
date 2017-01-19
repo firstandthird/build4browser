@@ -4,11 +4,13 @@ tasks:
   scripts: 'runkit-scripts'
   eslint: 'runkit-eslint'
   watcher: 'runkit-watcher'
+  livereload: 'runkit-livereload'
   default:
     -
       - 'eslint'
       - 'scripts'
   dev:
+    - 'livereload'
     - 'watcher'
 scripts:
   browserify:
@@ -19,4 +21,8 @@ watcher:
     - '{{dist}}'
     - 'node_modules'
   files:
-    './**/*.js': 'default'
+    './**/*.js': 
+      task: 'default'
+      ignore: 
+        - '{{dist}}'
+    '{{dist}}/*': 'livereload'
