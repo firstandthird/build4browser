@@ -1,4 +1,10 @@
 
+0.0.5 / 2017-01-20
+==================
+
+  * update example package.json to use config overrides
+  * use taskkit instead of runkit
+
 0.0.4 / 2017-01-19
 ==================
 
