@@ -34,6 +34,6 @@
     "taskkit-watcher": "0.0.5",
     "taskkit": "0.0.9",
     "taskkit-scripts": "0.0.5",
-    "taskkit-shell": "0.0.1"
+    "taskkit-shell": "0.0.2"
   }
 }
