@@ -16,7 +16,6 @@ scripts:
   minify: false
   browserify:
     standalone: '{{libraryName}}'
-  files: '{{scriptFiles}}'
 eslint:
   ignore:
     - '{{dist}}'

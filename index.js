@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const runkit = require('runkit');
+const taskKit = require('taskkit');
 const path = require('path');
 const startCase = require('lodash.startcase');
 
@@ -8,11 +8,11 @@ const libraryPkg = require(path.join(process.cwd(), 'package.json'));
 
 const options = libraryPkg.scriptkit || {};
 
-runkit({
+taskKit({
   name: 'scriptkit',
   version: require('./package.json').version,
   configPaths: [
-    path.join(__dirname, 'runkit')
+    path.join(__dirname, 'conf')
   ],
   context: {
     fileName: libraryPkg.name,

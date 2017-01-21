@@ -19,7 +19,7 @@
     "babel",
     "browserify",
     "browser",
-    "runkit"
+    "taskkit"
   ],
   "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
   "license": "MIT",
@@ -29,10 +29,10 @@
   "homepage": "https://github.com/firstandthird/scriptkit#readme",
   "dependencies": {
     "lodash.startcase": "^4.4.0",
-    "runkit": "0.0.8",
+    "taskkit": "0.0.9",
     "runkit-eslint": "0.0.2",
     "runkit-livereload": "0.0.5",
-    "runkit-scripts": "0.0.3",
+    "taskkit-scripts": "0.0.5",
     "runkit-watcher": "0.0.4"
   }
 }
