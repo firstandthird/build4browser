@@ -10,6 +10,7 @@ tasks:
     -
       - 'eslint'
       - 'scripts'
+    - 'test'
   dev:
     - 'livereload'
     - 'watcher'
@@ -17,6 +18,9 @@ scripts:
   minify: false
   browserify:
     standalone: '{{libraryName}}'
+test:
+  command: 'npm'
+  arguments: 'test'
 eslint:
   ignore:
     - '{{dist}}'
