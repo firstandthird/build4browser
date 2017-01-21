@@ -16,7 +16,6 @@ taskKit({
   ],
   context: {
     fileName: libraryPkg.name,
-    libraryName: startCase(libraryPkg.name).replace(/ /g, ''),
-    scriptFiles: options.scripts || {}
+    libraryName: startCase(libraryPkg.name).replace(/ /g, '')
   }
 });

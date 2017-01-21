@@ -4,6 +4,10 @@
     "start": "node ../index.js"
   },
   "scriptkit": {
-    "entrypoint": "example.js"
+    "scripts": {
+      "files": {
+        "dist/example.js": "example.js"
+      }
+    }
   }
 }
