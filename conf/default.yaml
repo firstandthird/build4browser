@@ -1,10 +1,11 @@
 dist: 'dist'
 entrypoint: 'index.js'
 tasks:
-  scripts: 'runkit-scripts'
-  eslint: 'runkit-eslint'
-  watcher: 'runkit-watcher'
-  livereload: 'runkit-livereload'
+  test: 'taskkit-shell'
+  scripts: 'taskkit-scripts'
+  eslint: 'taskkit-eslint'
+  watcher: 'taskkit-watcher'
+  livereload: 'taskkit-livereload'
   default:
     -
       - 'eslint'
