@@ -4,6 +4,12 @@
     "start": "node ../index.js"
   },
   "scriptkit": {
+    "eslint": {
+      "enabled": false
+    },
+    "test": {
+      "enabled": false
+    },
     "scripts": {
       "files": {
         "dist/example.js": "example.js"
