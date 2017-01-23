@@ -6,10 +6,12 @@ tasks:
   eslint: 'taskkit-eslint'
   watcher: 'taskkit-watcher'
   livereload: 'taskkit-livereload'
+  clean: 'taskkit-clean'
   default:
     - 'build'
     - 'test'
   build:
+    - 'clean'
     -
       - 'eslint'
       - 'scripts'
@@ -21,6 +23,9 @@ scripts:
 test:
   command: 'npm'
   arguments: 'test'
+clean:
+  files:
+    - '{{dist}}'
 eslint:
   ignore:
     - '{{dist}}'
