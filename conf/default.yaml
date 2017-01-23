@@ -7,10 +7,12 @@ tasks:
   watcher: 'taskkit-watcher'
   livereload: 'taskkit-livereload'
   default:
+    - 'build'
+    - 'test'
+  build:
     -
       - 'eslint'
       - 'scripts'
-    - 'test'
   dev:
     - 'livereload'
     - 'watcher'
