@@ -28,6 +28,7 @@ eslint:
     - '{{dist}}'
     - 'node_modules'
     - '.git'
+    - '*.dist.js'
   files:
     - './**/*.js'
 
