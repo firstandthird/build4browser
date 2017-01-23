@@ -29,11 +29,11 @@
   "homepage": "https://github.com/firstandthird/scriptkit#readme",
   "dependencies": {
     "lodash.startcase": "^4.4.0",
+    "taskkit": "0.0.9",
     "taskkit-eslint": "0.0.3",
     "taskkit-livereload": "0.0.6",
-    "taskkit-watcher": "0.0.5",
-    "taskkit": "0.0.9",
-    "taskkit-scripts": "0.0.6",
-    "taskkit-shell": "0.0.2"
+    "taskkit-rollup": "0.0.1",
+    "taskkit-shell": "0.0.2",
+    "taskkit-watcher": "0.0.5"
   }
 }

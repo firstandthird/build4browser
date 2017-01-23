@@ -2,7 +2,7 @@ dist: 'dist'
 entrypoint: 'index.js'
 tasks:
   test: 'taskkit-shell'
-  scripts: 'taskkit-scripts'
+  scripts: 'taskkit-rollup'
   eslint: 'taskkit-eslint'
   watcher: 'taskkit-watcher'
   livereload: 'taskkit-livereload'
@@ -17,9 +17,7 @@ tasks:
     - 'livereload'
     - 'watcher'
 scripts:
-  minify: false
-  browserify:
-    standalone: '{{libraryName}}'
+  name: '{{libraryName}}'
 test:
   command: 'npm'
   arguments: 'test'
