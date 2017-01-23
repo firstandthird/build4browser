@@ -33,7 +33,7 @@
     "taskkit-livereload": "0.0.6",
     "taskkit-watcher": "0.0.5",
     "taskkit": "0.0.9",
-    "taskkit-scripts": "0.0.5",
+    "taskkit-scripts": "0.0.6",
     "taskkit-shell": "0.0.2"
   }
 }
