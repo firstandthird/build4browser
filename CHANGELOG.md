@@ -1,4 +1,10 @@
 
+0.0.8 / 2017-01-23
+==================
+
+  * exclude *.dist.js from linting
+  * added separate build task
+
 0.0.7 / 2017-01-21
 ==================
 
