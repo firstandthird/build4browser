@@ -1,4 +1,10 @@
 
+0.0.11 / 2017-01-23
+==================
+
+  * tweaks to example
+  * added taskkit-clean, updated deps
+
 0.0.10 / 2017-01-23
 ==================
 
