@@ -33,7 +33,7 @@
     "taskkit-clean": "0.0.2",
     "taskkit-eslint": "0.0.3",
     "taskkit-livereload": "0.0.6",
-    "taskkit-rollup": "0.0.3",
+    "taskkit-rollup": "0.0.4",
     "taskkit-shell": "0.0.3",
     "taskkit-watcher": "0.0.5"
   }
