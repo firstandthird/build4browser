@@ -1,4 +1,10 @@
 
+0.0.13 / 2017-01-24
+==================
+
+  * fix(package): update taskkit-rollup to version 0.0.4
+  * fix(package): update taskkit to version 0.0.13
+
 0.0.12 / 2017-01-24
 ==================
 
