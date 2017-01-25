@@ -2,6 +2,7 @@ dist: 'dist'
 entrypoint: 'index.js'
 tasks:
   test: 'taskkit-shell'
+  serve: 'taskkit-shell'
   scripts: 'taskkit-rollup'
   eslint: 'taskkit-eslint'
   watcher: 'taskkit-watcher'
@@ -17,12 +18,21 @@ tasks:
       - 'scripts'
   dev:
     - 'livereload'
+    - 'serve'
     - 'watcher'
 scripts:
   name: '{{libraryName}}'
 test:
   command: 'npm'
-  arguments: 'test'
+  args: 'test'
+serve:
+  command: 'serve'
+  continue: true
+  args:
+    p: 8080
+    c: 0
+  env: 
+    PATH: '{{ENV.PATH}}:{{CWD}}/node_modules/.bin'
 clean:
   files:
     - '{{dist}}'

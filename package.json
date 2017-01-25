@@ -29,6 +29,7 @@
   "homepage": "https://github.com/firstandthird/scriptkit#readme",
   "dependencies": {
     "lodash.startcase": "^4.4.0",
+    "serve": "^2.4.3",
     "taskkit": "0.0.13",
     "taskkit-clean": "0.0.2",
     "taskkit-eslint": "0.0.3",
