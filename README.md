@@ -24,11 +24,11 @@ npm i -D scriptkit
 
 (in your package.json)
 
-```json
+```js
 {
   "scripts": {
     "build": "scriptkit", //run build and then exit
-    "dev": "scriptkit dev" //run build and watch for changes
+    "dev": "scriptkit dev", //run build and watch for changes
     "prod": "scriptkit --env production" //build and minify
   },
   "scriptkit": {
