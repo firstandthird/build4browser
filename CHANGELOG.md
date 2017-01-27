@@ -1,4 +1,10 @@
 
+0.0.18 / 2017-01-26
+==================
+
+  * move files to top level of object, enable commonjs, builtin and globals by default
+  * readme
+
 0.0.17 / 2017-01-25
 ==================
 
