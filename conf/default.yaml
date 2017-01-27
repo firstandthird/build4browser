@@ -22,6 +22,11 @@ tasks:
     - 'watcher'
 scripts:
   name: '{{libraryName}}'
+  commonjs: 
+    enabled: true
+  globals: true
+  builtins: true
+  files: '{{files}}'
 test:
   command: 'npm'
   args: 'test'
