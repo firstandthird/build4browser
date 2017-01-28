@@ -21,7 +21,8 @@ tasks:
     - 'serve'
     - 'watcher'
 scripts:
-  name: '{{libraryName}}'
+  rollup:
+    moduleName: '{{libraryName}}'
   commonjs: 
     enabled: true
   globals: true
