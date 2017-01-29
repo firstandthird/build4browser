@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+'use strict';
 const taskKit = require('taskkit');
 const path = require('path');
 const startCase = require('lodash.startcase');
