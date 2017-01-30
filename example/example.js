@@ -1,4 +1,3 @@
 'use strict';
-const foo = require('./lib/foo');
-
+import foo from './lib/foo';
 foo();
