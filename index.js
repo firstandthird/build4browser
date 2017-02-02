@@ -6,8 +6,6 @@ const startCase = require('lodash.startcase');
 
 const libraryPkg = require(path.join(process.cwd(), 'package.json'));
 
-const options = libraryPkg.scriptkit || {};
-
 taskKit({
   name: 'scriptkit',
   version: require('./package.json').version,
@@ -16,6 +14,7 @@ taskKit({
   ],
   context: {
     fileName: libraryPkg.name,
-    libraryName: startCase(libraryPkg.name).replace(/ /g, '')
+    libraryName: startCase(libraryPkg.name).replace(/ /g, ''),
+    scriptKitPath: __dirname
   }
 });
