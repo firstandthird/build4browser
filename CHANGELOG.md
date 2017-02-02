@@ -1,4 +1,13 @@
 
+0.0.22 / 2017-02-02
+==================
+
+  * added scriptKitPath to context
+  * added 20 second timeout for tests
+  * fix(package): update taskkit to version 0.0.15
+  * add travis
+  * fix(package): update taskkit-shell to version 0.1.0
+
 0.0.20 / 2017-01-28
 ==================
 
