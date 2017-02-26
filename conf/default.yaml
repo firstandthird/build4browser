@@ -8,9 +8,11 @@ tasks:
   watcher: 'taskkit-watcher'
   livereload: 'taskkit-livereload'
   clean: 'taskkit-clean'
+  analyze: 'taskkit-analyze'
   default:
     - 'build'
     - 'test'
+    - 'analyze'
   build:
     - 'clean'
     -
@@ -63,3 +65,5 @@ watcher:
       ignore: 
         - '{{dist}}'
     '{{dist}}/*': 'livereload'
+analyze:
+  files: '{{files}}'

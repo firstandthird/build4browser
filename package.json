@@ -35,6 +35,7 @@
     "lodash.startcase": "4.4.0",
     "serve": "3.4.1",
     "taskkit": "1.1.0",
+    "taskkit-analyze": "0.0.2",
     "taskkit-clean": "0.0.2",
     "taskkit-eslint": "0.0.3",
     "taskkit-livereload": "0.0.6",
