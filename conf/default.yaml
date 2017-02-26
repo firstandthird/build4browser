@@ -22,7 +22,8 @@ tasks:
     - 'watcher'
 scripts:
   rollup:
-    moduleName: '{{libraryName}}'
+    bundle:
+      moduleName: '{{libraryName}}'
   commonjs: 
     enabled: true
   globals: true

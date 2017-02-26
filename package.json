@@ -33,17 +33,17 @@
   "dependencies": {
     "lodash.startcase": "4.4.0",
     "serve": "3.4.1",
-    "taskkit": "1.0.0",
+    "taskkit": "1.1.0",
     "taskkit-clean": "0.0.2",
     "taskkit-eslint": "0.0.3",
     "taskkit-livereload": "0.0.6",
-    "taskkit-rollup": "0.0.8",
+    "taskkit-rollup": "0.1.0",
     "taskkit-shell": "0.1.0",
     "taskkit-watcher": "0.0.5"
   },
   "devDependencies": {
-    "eslint": "3.9.1",
-    "eslint-plugin-import": "2.1.0",
-    "eslint-config-firstandthird": "3.2.0"
+    "eslint": "3.16.1",
+    "eslint-config-firstandthird": "3.3.0",
+    "eslint-plugin-import": "2.2.0"
   }
 }
