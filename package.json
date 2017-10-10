@@ -32,20 +32,21 @@
   },
   "homepage": "https://github.com/firstandthird/scriptkit#readme",
   "dependencies": {
+    "babel-core": "^6.26.0",
     "lodash.startcase": "4.4.0",
-    "serve": "3.4.1",
-    "taskkit": "1.1.0",
-    "taskkit-analyze": "0.0.2",
-    "taskkit-clean": "0.0.2",
-    "taskkit-eslint": "0.0.3",
+    "serve": "6.2.0",
+    "taskkit": "2.1.0",
+    "taskkit-analyze": "1.0.0",
+    "taskkit-clean": "1.1.0",
+    "taskkit-eslint": "1.1.1",
     "taskkit-livereload": "0.0.6",
-    "taskkit-rollup": "0.1.0",
-    "taskkit-shell": "0.1.0",
-    "taskkit-watcher": "0.0.5"
+    "taskkit-rollup": "1.1.0",
+    "taskkit-shell": "2.0.0",
+    "taskkit-watcher": "1.1.0"
   },
   "devDependencies": {
-    "eslint": "3.16.1",
-    "eslint-config-firstandthird": "3.3.0",
-    "eslint-plugin-import": "2.2.0"
+    "eslint": "4.8.0",
+    "eslint-config-firstandthird": "4.0.1",
+    "eslint-plugin-import": "2.7.0"
   }
 }
