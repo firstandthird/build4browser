@@ -13,5 +13,8 @@
     "test": {
       "enabled": false
     }
+  },
+  "devDependencies": {
+    "domassist": "^1.10.0"
   }
 }

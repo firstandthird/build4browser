@@ -25,7 +25,7 @@ tasks:
 scripts:
   rollup:
     bundle:
-      moduleName: '{{libraryName}}'
+      name: '{{libraryName}}'
   commonjs: 
     enabled: true
   globals: true
