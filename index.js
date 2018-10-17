@@ -1,20 +1,24 @@
 #!/usr/bin/env node
-'use strict';
-const taskKit = require('taskkit');
+
+const main = require('taskkit');
 const path = require('path');
 const startCase = require('lodash.startcase');
 
+process.env.TASKKIT_PREFIX = 'scriptkit';
+process.env.TASKKIT_BASECONFIG = path.join(__dirname, 'conf');
+process.env.TASKKIT_CKDIR = __dirname;
 const libraryPkg = require(path.join(process.cwd(), 'package.json'));
+process.env.TASKKIT_LIBNAME = startCase(libraryPkg.name).replace(/ /g, '');
 
-taskKit({
-  name: 'scriptkit',
-  version: require('./package.json').version,
-  configPaths: [
-    path.join(__dirname, 'conf')
-  ],
-  context: {
-    fileName: libraryPkg.name,
-    libraryName: startCase(libraryPkg.name).replace(/ /g, ''),
-    scriptKitPath: __dirname
+const task = process.argv[2] || 'default';
+
+const run = async function() {
+  try {
+    await main(task);
+  } catch (e) {
+    console.log(e);
+    process.exit(1);
   }
-});
+};
+
+run();

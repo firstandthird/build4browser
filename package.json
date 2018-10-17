@@ -35,7 +35,7 @@
     "babel-core": "^6.26.0",
     "lodash.startcase": "^4.4.0",
     "serve": "^6.5.8",
-    "taskkit": "^2.1.0",
+    "taskkit": "^3.2.1",
     "taskkit-analyze": "^1.0.0",
     "taskkit-clean": "^1.1.0",
     "taskkit-eslint": "^1.1.3",
