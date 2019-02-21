@@ -28,7 +28,7 @@ scripts:
   rollup:
     bundle:
       name: '{{libraryName}}'
-  commonjs: 
+  commonjs:
     enabled: true
   globals: true
   builtins: true
@@ -44,7 +44,7 @@ serve:
   args:
     p: 8080
     c: 0
-  env: 
+  env:
     PATH: '{{ENV.PATH}}:{{CWD}}/node_modules/.bin'
 livereload:
   enabled: false
@@ -56,7 +56,7 @@ eslint:
     - '{{dist}}'
     - 'node_modules'
     - '.git'
-    - '*.dist.js'
+    - '*.dist.*'
   files:
     - './**/*.js'
 
@@ -65,10 +65,9 @@ watcher:
     - 'node_modules'
     - '.git'
   files:
-    './**/*.js': 
+    './**/*.js':
       task: 'default'
-      ignore: 
+      ignore:
         - '{{dist}}'
-    #'{{dist}}/*': 'livereload'
 analyze:
   files: '{{files}}'
