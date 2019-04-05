@@ -43,8 +43,7 @@ serve:
   continue: true
   args:
     p: 8080
-    c: 0
-    n: 0
+    n: ''
   env:
     PATH: '{{ENV.PATH}}:{{CWD}}/node_modules/.bin'
 livereload:
