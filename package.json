@@ -1,6 +1,6 @@
 {
   "name": "scriptkit",
-  "version": "2.0.3",
+  "version": "3.0.0",
   "description": "Node cli to turn an es6 script with requires/imports into a standalone file for use in browser",
   "main": "index.js",
   "bin": {
