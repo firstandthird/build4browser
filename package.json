@@ -31,21 +31,21 @@
   "dependencies": {
     "babel-core": "^6.26.3",
     "lodash.startcase": "^4.4.0",
-    "serve": "^11.0.0",
+    "serve": "^11.0.2",
     "taskkit": "^3.2.1",
     "taskkit-analyze": "^1.0.0",
     "taskkit-clean": "^1.1.0",
     "taskkit-eslint": "^1.2.0",
     "taskkit-livereload": "^0.0.6",
-    "taskkit-rollup": "^3.0.0",
+    "taskkit-rollup": "^4.0.1",
     "taskkit-shell": "^2.0.0",
     "taskkit-watcher": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-firstandthird": "^4.3.0",
+    "eslint": "^6.0.1",
+    "eslint-config-firstandthird": "^4.4.0",
     "eslint-loader": "^2.1.2",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.18.0"
   },
   "eslintConfig": {
     "extends": "firstandthird",
